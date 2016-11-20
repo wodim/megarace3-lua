@@ -1,0 +1,18 @@
+mesh( "shieldVUL.dff" )
+frameRate( 55 )
+
+objet( "DefToAtt01" )
+  renderMode( "additive+" )
+ begin_loop (-1)
+  diffuse( 02, 255, 255, 255 )
+  diffuse( 50, 5, 5, 55 )
+  diffuse( 05, 255, 255, 255 )
+  diffuse( 40, 5, 5, 55 )
+  diffuse( 05, 255, 255, 255 )
+  diffuse( 60, 5, 25, 55 )
+  diffuse( 10, 255, 255, 255 )
+  diffuse( 40, 5, 5, 55 )
+  diffuse( 04, 255, 255, 255 )
+ end_loop (-1)
+  uv_translation( -1, 0.03, 0.005 )
+  

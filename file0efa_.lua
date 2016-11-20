@@ -1,0 +1,10 @@
+objet( "all_atomics" )
+frameRate( 50 )
+transparence( 30, 0, 0, 0 )
+transparence( 10, 0, 0, 0 )
+transparence( 1, 255, 255, 255 )
+transparence( 1, 255, 255, 255 )
+transparence( -1, 255, 255, 255 )
+
+terminate( 52 )
+script( 1, "sfx_spawn2pod" )

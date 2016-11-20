@@ -1,0 +1,40 @@
+frameRate( 40 )
+
+objet( "boudin1" )
+renderMode( "normal" )
+ diffuse( -1, 250, 255, 250 )
+ uv_translation( -1, 0.001, -0.25 )
+
+objet( "lampeP2" )
+ renderMode( "additive" )
+ diffuse( -1, 255, 250, 250 )
+
+objet( "nappe2" )
+ renderMode( "additive" )
+ diffuse( -1, 255, 20, 12 )
+ uv_translation(-1, -0.002, 0.001 )
+
+objet( "t3P2" )
+renderMode( "additive" )
+ diffuse( -1, 10, 66, 255 )
+ uv_translation(-1, 0.01, 0.02 )
+
+objet( "toiles" )
+ renderMode( "normal" )
+ diffuse( -1, 255, 255, 255 )
+
+objet( "tuyaux1" )
+ renderMode( "additive" )
+ diffuse( -1, 255, 255, 255 )
+ uv_translation(-1, 0.3,-0.06 )
+objet( "tuyaux2" )
+ renderMode( "additive" )
+ diffuse( -1, 250, 255, 255 )
+ uv_translation(-1, -0.2,-0.06 )
+
+ objet( "vitre1" )
+ renderMode( "additive" )
+diffuse( -1, 20, 20, 100 )
+objet( "vitre2" )
+ renderMode( "additive" )
+ diffuse( -1, 80, 80, 128 )

@@ -1,0 +1,25 @@
+frameRate( 40 )
+
+objet( "arche1" )
+ renderMode( "additive+" )
+ diffuse( -1, 255, 20, 80 )
+ uv_translation( -1, 0.030, 0.030 )
+
+objet( "arche1A" )
+ renderMode( "additive+" )
+ diffuse( -1, 255, 80, 1 )
+ uv_translation( -1, -0.040, 0.030 )
+
+objet( "bouleA" )
+ renderMode( "additive+" )
+ diffuse( -1, 2, 255, 80 )
+ uv_translation( -1, 0.080, 0.050 )
+
+objet( "glow1" )
+ --sprite (0)
+ renderMode( "additive+" )
+ diffuse( -1, 255, 100, 1 )
+objet( "glow3" )
+ -- sprite (0)
+ renderMode( "additive+" )
+ diffuse( -1,  100, 255, 80 )

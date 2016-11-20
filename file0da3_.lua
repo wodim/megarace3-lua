@@ -1,0 +1,8 @@
+mesh( "damage.dff" )
+particules( 0, "emitter_02", "splash", 2 )
+particules( 0, "emitter_01", "bull2", 2 )
+particules( 0, "emitter_02", "bull3", 2 )
+particules( 0, "emitter_02", "bull4", 2 )
+--particules( 0, "emitter_01", "bull5", 2 )
+flare( 0, "emitter_01", "flare7", "flare7", 1 )
+flare( 0, "emitter_03", "flare7", "flare7", 1 )

@@ -1,0 +1,28 @@
+frameRate( 40 )
+
+objet( "amphi1" )
+ renderMode( "additive" )
+ diffuse( -1, 250, 150, 150 )
+objet( "amphi2" )
+ renderMode( "additive" )
+ diffuse( -1, 250, 200, 200 )
+
+objet( "conelum4" )
+ renderMode( "additive" )
+ diffuse( -1, 150, 150, 150 )
+
+objet( "dragon1" )
+ renderMode( "additive" )
+ begin_loop (-1)
+  diffuse( 25, 20, 10, 10 )
+  diffuse( 25, 200, 200, 200 )
+  diffuse( 25, 20, 10, 10 )
+ end_loop (-1)
+objet( "dragon2" )
+ renderMode( "additive" )
+ begin_loop (-1)
+  diffuse( 25, 20, 10, 10 )
+  diffuse( 25, 200, 200, 200 )
+  diffuse( 25, 20, 10, 10 )
+ end_loop (-1)
+

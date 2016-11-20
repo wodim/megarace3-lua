@@ -1,0 +1,20 @@
+frameRate( 50 )
+
+clipping (0)
+
+objet( "Navett" )
+ renderMode( "normal" )
+ diffuse( -1, 255, 255, 255 )
+objet( "fxnavett" )
+ renderMode( "additive" )
+ diffuse( -1, 255, 255, 255 )
+ --flare( 0, "fxnavett", "flare3", "flare3", 1 )
+ 
+objet( "eau0" )
+ renderMode( "normal" )
+ diffuse( -1, 170, 180, 207 )
+  uv_translation( -1, 0.002, 0.002 )
+ objet( "eau1" )
+ renderMode( "additive" )
+ diffuse( -1, 200, 200, 200 )
+ uv_translation( -1, 0.002, 0.002 )

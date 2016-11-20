@@ -1,0 +1,21 @@
+mesh( "exp.DFF" )
+frameRate (25)
+ playAnim ( 0 , "exp", 1 , 1 )
+
+objet( "sprglo03" )
+  renderMode( "additive" )
+ diffuse( 8, 255, 255, 255 )
+ diffuse( 6, 255, 255, 255 )
+  diffuse( 6, 0, 0, 0 )
+ sprite(0)
+  
+objet( "sprexplo" )
+  renderMode( "additive" )
+ diffuse( 16, 200, 200, 200 )
+ diffuse( 6, 0, 0, 0 )
+  mapAnim ("impact", 16, 0)
+ sprite(0)
+
+particules( 0, "sprglo03", "explosion2", 0 )
+light( 0, 19, "emitter_exp", 60.0, 0.0, 1, 2, 8, 0, 0, 1, 0 )
+terminate (25)

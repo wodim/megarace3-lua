@@ -1,0 +1,30 @@
+frameRate( 20 )
+objet( "Object04" )
+ renderMode( "additive+" )
+ diffuse( -1, 100, 100, 120 )
+
+ objet( "Box21" )
+sprite(1)
+ renderMode( "additive+" )
+-- uv_translation( -1, 0.0, -0.004 )
+ diffuse( -1, 255, 255, 250 )
+
+ objet( "Box22" )
+--sprite(1)
+ renderMode( "additive+" )
+ diffuse( -1, 255, 255, 250 )
+
+ objet( "Box23" )
+--sprite(1)
+ renderMode( "additive+" )
+ diffuse( -1, 255, 255, 250 )
+
+ objet( "Box24" )
+--sprite(1)
+ renderMode( "additive+" )
+ diffuse( -1, 255, 255, 250 )
+
+ objet( "Box25" )
+--sprite(1)
+ renderMode( "additive+" )
+ diffuse( -1, 255, 255, 250 )

@@ -1,0 +1,37 @@
+child_mesh( "reactorf1.dff", "emitter_R" )
+frameRate( 50 )
+
+objet( "spr_reactGLOW02")
+ renderMode( "additive+" )
+ sprite(1)
+ diffuse( 1, 200, 200, 200 )
+ diffuse( 450, 255, 255, 200 )
+ diffuse( -1, 200, 200, 200 )
+
+objet( "Cone01" )
+ renderMode( "additive" )
+ diffuse( 10, 200, 200, 200 )
+ diffuse( -1, 255, 0, 0 )
+
+objet( "cone02" )
+ renderMode( "additive+" )
+ uv_translation( -1, 0.0, -0.08 )
+ diffuse( 10, 150, 150, 100 )
+ diffuse( 20, 180, 160, 150 )
+ diffuse( 10, 255, 255, 225 )
+ diffuse( -1, 150, 150, 150 )
+
+objet( "cone03" )
+ renderMode( "additive" )
+ uv_translation( -1, 0.05, 0.0 )
+ diffuse( 40, 0, 0, 0 )
+ diffuse( 30, 0, 0, 0 )
+ diffuse( 40, 140, 66, 66 )
+ diffuse( 50, 175, 60, 60 )
+ diffuse( 50, 250, 50, 0 )
+ diffuse( -1, 0, 0, 0 )
+
+particules( 0, "emitter_R", "reactflamturbo", 2 )
+flare( 80, "emitter_R", "flareR1", "flareR2", 1 )
+light( 0, -1, "dynalight_00", 40.0, 40.0, 3, 1,0 , 3, 1, 0, 0 )
+

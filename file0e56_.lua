@@ -1,0 +1,10 @@
+frameRate( 40 )
+
+objet( "fxA6gbis" )
+  renderMode( "additive+" )
+begin_loop(-1)
+ diffuse( 1,255, 250, 250 )
+ diffuse( 1, 0, 0, 0 )
+ diffuse( 100, 255, 250, 250 )
+end_loop(-1)
+ uv_translation(-1, 0.01, -0.02 )

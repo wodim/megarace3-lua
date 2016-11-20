@@ -1,0 +1,5 @@
+objet( "all_atomics" )
+transparence( 25, 255, 255, 255 )
+transparence( 50, 0, 0, 0 )
+transparence( 50, 0, 0, 0 )
+transparence( 1, 255, 255, 255 )

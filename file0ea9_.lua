@@ -1,0 +1,46 @@
+frameRate( 40 )
+
+objet( "arab2" )
+ renderMode( "additive" )
+ begin_loop (-1)
+  diffuse( 50, 20, 10, 10 )
+  diffuse( 50, 200, 200, 200 )
+  diffuse( 50, 20, 10, 10 )
+ end_loop (-1)
+ 
+objet( "arab3" )
+ renderMode( "additive" )
+ begin_loop (-1)
+  diffuse( 50, 200, 200, 200 )
+  diffuse( 50, 20, 10, 10 )
+  diffuse( 50, 200, 200, 200 )
+end_loop (-1)
+
+particules( 0, "emitter_fire4", "c6fire", 0 )
+
+objet( "glored00" )
+ renderMode( "additive" )
+ sprite (1)
+ begin_loop (-1)
+  diffuse( 10, 10, 1, 1 )
+  diffuse( 98, 250, 250, 250 )
+  diffuse( 48, 10, 1, 1 )
+  diffuse( 2, 1, 1, 1 )
+ end_loop (-1)
+
+
+objet( "Cylinder08" )
+ renderMode( "additive" )
+ diffuse( -1, 150, 150, 150 )
+objet( "Cylinder07" )
+ renderMode( "normal" )
+ diffuse( -1, 250, 250, 250 )
+
+objet( "conelum03" )
+ renderMode( "additive" )
+ diffuse( -1, 150, 150, 150 )
+ 
+objet( "lumardeco" )
+ renderMode( "additive" )
+ diffuse( -1, 110, 80, 80 )
+  uv_translation( -1, 0.0, 0.01 )

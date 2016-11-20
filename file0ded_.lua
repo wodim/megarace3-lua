@@ -1,0 +1,25 @@
+mesh( "impact.dff" )
+frameRate( 20 )
+ 
+objet( "sol" )
+ renderMode( "additive" )
+     diffuse( 1, 255, 255, 255 )
+    diffuse( 12, 255, 255, 255 )
+  diffuse( 20, 150, 2, 2 )
+  diffuse( 10, 0, 0, 0 )
+
+objet( "sprglo" )
+ renderMode( "additive" )
+ diffuse( 11, 155, 155, 155 )
+  diffuse( 1, 155, 155, 155 )
+ diffuse( 10, 0, 0, 0 )
+sprite(0)
+
+objet( "impact" )
+ renderMode( "additive" )
+   mapAnim ("expl", 18,0)
+  diffuse( 1, 255, 255, 255 )
+  diffuse( 14, 255, 255, 255 )
+  diffuse( 4, 0, 0, 0 )
+
+ --terminate (25)
